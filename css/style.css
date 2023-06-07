@@ -1,0 +1,269 @@
+
+:root {
+/* Ширина и высота должна бывть меньши чтоб не слипались кубики*/
+  --w-h: 50px;
+}
+.brokenHeart{
+	background-image: url(../img/brokenHeart.png);
+	height: 70px;
+	width: 70px;
+	position: absolute; 
+	top: 60px; 
+	left: 82px;
+}
+.brokenHeartText{
+	position: absolute; 
+	top: 61px; 
+	left: 166px;
+	color: #ff4800;
+	font-size: 50px;
+}
+.moves{
+	background-color: #f2b452;
+	border-radius: 25px;
+	width: 130px;
+	height: 87px;
+	z-index: -9;
+	position: absolute;
+	top: 152px;
+	left: 484px;
+}
+.movesCount {
+	color: #ff4800;
+	font-size: 32px;
+}
+.endLevel{
+	background-color: #f2b452;
+	width: 300px;
+	height: 300px;
+    border-radius: 25px;
+	position: absolute;
+	top: 209px;
+	left: 102px;
+	z-index: 9
+}
+.background75{
+	background-image: url(../img/background75.png);
+	height: 600px;
+	width: 800px;
+	position: absolute;
+	top: 71px;
+	left: -164px;
+	z-index: 8;
+}
+.hPurpose{
+	color: #ff4800;
+	font-size: 22px;
+}
+.vPurpose{
+	color: #ff4800;
+	font-size: 22px;
+}
+.ok{
+	background-image: url(../img/ok.png);
+	height: 30px;
+	width: 30px;
+	z-index: 9;
+	margin: -6px 0px 0px 36px ;
+	left: 18px;
+	background-repeat: round;
+}
+.divPurpose {
+	margin: 16px 0px 0px 10px;
+	position: absolute;
+	left: 18px;
+	width: 100px;
+}
+.purpose{
+	background-color: #f2b452;
+	border-radius: 25px;
+	width: 130px;
+	z-index: -9;
+	position: absolute;
+	top: 265px;
+	left: 484px;
+}
+.purposeText{
+	color: #ff4800;
+	font-size: 22px;
+	position: absolute;
+	margin: 12px 0px 0px -28px;
+	
+}
+.background{
+	background-image: url(../img/background.jpg);
+	height: 600px;
+	width: 800px;
+	position: absolute;
+	top: 71px;
+	left: -164px;
+	z-index: -10;
+}
+.backgroundGame{
+	background-image: url(../img/backgroundGame.png);
+	height: 50px;
+	width: 50px;
+	background-repeat: round;
+
+	z-index: 0;
+}
+
+.backgroundEdgesRight {
+	background-image: url(../img/backgroundEdgesRight.png);
+	height: 78px;
+	width: 14px;
+    z-index: -1;
+	background-repeat: round;
+	position: absolute;
+}
+.backgroundEdgesLeft {
+	background-image: url(../img/backgroundEdgesLeft.png);
+	height: 78px;
+	width: 14px;
+    z-index: -1;
+	background-repeat: round;
+	position: absolute;
+}
+.backgroundEdgesTop {
+	background-image: url(../img/backgroundEdgesTop.png);
+	height: 14px;
+	width: 78px;
+    z-index: -1;
+	background-repeat: round;
+	position: absolute;
+}
+.backgroundEdgesBottom {
+	background-image: url(../img/backgroundEdgesBottom.png);
+	height: 14px;
+	width: 78px;
+    z-index: -1;
+	background-repeat: round;
+	position: absolute;
+}
+/* .backgroundEdges {
+	background-image: url(../img/backgroundEdges.png);
+	height: 14px;
+	width: 78px;
+	top: 145px;
+	left: -14px;
+	background-repeat: round;
+	position: absolute;
+}
+.backgroundEdges2 {
+	background-image: url(../img/backgroundEdges2.png);
+	height: 78px;
+	width: 14px;
+	top: 145px;
+	left: -14px;
+	background-repeat: round;
+	position: absolute;
+} */
+.activ {
+	background-image: url(../img/Activ.png);
+	height: var(--w-h);
+	width: var(--w-h);
+	z-index: 100;
+	background-repeat: round;
+}
+.black {
+	background-image: url(../img/black.png);
+	height: var(--w-h);
+	width: var(--w-h);
+	background-repeat: round;
+	opacity: 0.08;
+	z-index: 0;
+}
+.Blue {
+	background-image: url(../img/Blue.png);
+	height: var(--w-h);
+	width: var(--w-h);
+	background-repeat: round;
+	z-index: 2;
+}
+.Brown {
+	background-image: url(../img/Brown.png);
+	height: var(--w-h);
+	width: var(--w-h);
+	background-repeat: round;
+	z-index: 2;
+}
+.Green {
+	background-image: url(../img/Green.png);
+	height: var(--w-h);
+	width: var(--w-h);
+	background-repeat: round;
+	z-index: 2;
+}
+.Grey {
+	background-image: url(../img/Grey.png);
+	height: var(--w-h);
+	width: var(--w-h);
+	background-repeat: round;
+	z-index: 2;
+}
+.Orange {
+	background-image: url(../img/Orange.png);
+	height: var(--w-h);
+	width: var(--w-h);
+	background-repeat: round;
+	z-index: 2;
+}
+.Pink {
+	background-image: url(../img/Pink.png);
+	height: var(--w-h);
+	width: var(--w-h);
+	background-repeat: round;
+	z-index: 2;
+}
+.Purple {
+	background-image: url(../img/Purple.png);
+	height: var(--w-h);
+	width: var(--w-h);
+	background-repeat: round;
+	z-index: 2;
+}
+.Red {
+	background-image: url(../img/Red.png);
+	height: var(--w-h);
+	width: var(--w-h);
+	background-repeat: round;
+	z-index: 2;
+}
+.Yellow {
+	background-image: url(../img/Yellow.png);
+	height: var(--w-h);
+	width: var(--w-h);
+	background-repeat: round;
+	z-index: 2;
+}
+.nav {
+	position: absolute;
+	top: 600px;
+	left: 51px;
+}
+.row {
+	display: flex;
+    flex-wrap: wrap;
+}
+.container {
+	padding:0px;
+}
+.www {
+	margin:0 25% 0 25%;
+	width:510px;
+	height: 510px;
+	text-align: center;
+	position: absolute;
+}
+.left {
+	 left: 400px;
+	 position: absolute;
+	 top: 630px; 
+	 background-color: brown;
+}
+.names {
+	 left: 34px;
+	 position: absolute;
+	 top: -87px; 
+	 width:510px;
+}
